@@ -7,8 +7,3 @@ tagline: Supporting tagline
 
 传奇的投资公司！
 
-## Hello World！
-
-
-
-

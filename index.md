@@ -1,6 +1,6 @@
 ---
 layout: page
-title: EBN0有限责任公司
+title: EBN0控股有限公司
 tagline: Supporting tagline
 ---
 {% include JB/setup %}

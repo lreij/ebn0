@@ -1,0 +1,67 @@
+body {
+    background: #FFF;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: normal;
+    margin: 0;
+    line-height: 1;
+}
+
+h2 {
+    font-size: 70px;
+    font-weight: normal;
+    margin: 0;
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: normal;
+    margin: 0;
+}
+
+p {
+    font-size: 50px;
+    font-weight: normal;
+    margin: 0;
+}
+
+hr { border: none; }
+
+.blk {
+    margin: 0;
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.blk-head { background-color: black; color: white;}
+.blk-start { background-color: white; color: black;}
+.blk-start h2 {padding-top: 20px;}
+.blk-basic {background-color: black; color: white;}
+.blk-basic p { padding-top: 120px; }
+.blk-sncn {background-color: white; color: black;}
+.blk-sncn h2 { padding-bottom: 40px; }
+.blk-diff {background-color: black; color: white;}
+.blk-diff h2 { padding-bottom: 120px; }
+.blk-diff h3 { padding-top: 40px; }
+.blk-back {background-color: white; color: black;}
+.blk-ebn0-basic { background-color: black; color: white; }
+.blk-ebn0-basic h2 { padding-bottom: 120px; }
+.blk-ebn0-basic ul{ padding-left: 38.2%; text-align: left; }
+.blk-ebn0-basic ul li {padding-bottom: 30px; list-style: none;}
+.blk-image-des {background-color: black; color: white;}
+.blk-ebn0 {background-color: white; color: black;}
+.blk-ebn0 h2 { padding-bottom: 40px; }
+.blk-ebn0-cn { background-color: black; color: white;}
+.blk-ebn0-cn h2 {padding-bottom: 120px;}
+.blk-finish {background-color: white; color: black;}
+.blk-finish h2 {padding-top: 120px;}
+.blk-more { background-color: black; color: white;}
+.blk-footer { background-color: black; color: white;    padding-top: 20px; padding-bottom: 20px; font-size: 14px;}
+

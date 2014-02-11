@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <title>Eb/N0 终极指南</title>
+    <link rel="stylesheet" href="static/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="static/css/ebn0.css">
+  </head>
+  <body>
+    <div class="blk blk-head">
+    <h1><img src="static/img/pirate.jpg" alt="" />E<sub>b</sub>/N<sub>0</sub> 终极指南</h1>
+    </div>
+    <hr />
+
+    <div class="blk blk-start">
+    <span class="glyphicon glyphicon-volume-up"> </span> 你好啊！<br />
+    <span class="glyphicon glyphicon-volume-up"> </span> 搞通信的吧？<br />
+    <span class="glyphicon glyphicon-volume-up"> </span> 行业不景气，<a href="http://www.51job.com">换个行业</a>吧。<br /><br />
+    <p><img src="static/img/boy.jpg" alt="" height="80" width="80" /><strong>&nbsp;不，我要做通信民工！</strong></p>
+    <img src="static/img/arrow.png" alt="" />
+    <h2>别说我没拦着你!</h2>
+    </div>
+    <hr />
+
+    <div class="blk blk-basic">
+    <h2>先看点基本的</h2>
+    <p><span class="glyphicon glyphicon-circle-arrow-right"> </span>&nbsp;&nbsp;S/N，C/N</p>
+    </div>
+    <hr />
+
+    <div class="container blk blk-sncn">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>信噪比（S/N）</h2> 
+        <h2><span class="glyphicon glyphicon-pause"> </span></h2>
+        传输信号平均功率 <br />
+        -------------------------<br />
+        加性噪声平均功率
+      </div>
+      <div class="col-md-6">
+        <h2>载噪比（C/N）</h2> 
+        <h2><span class="glyphicon glyphicon-pause"> </span></h2>
+        已调制的传输信号平均功率 <br />
+        ----------------------------------<br />
+        加性噪声平均功率
+      </div>
+    </div>      
+    </div>
+    <hr />
+
+    <div class="blk blk-diff">
+    <h2>两者的区别</h2>
+    C/N中的已调信号的平均功率 = 传输信号的平均功率 + 调制载波的功率<br /><br />
+    与传输信号的平均功率相比，载波功率通常很小。
+    <h3><span class="glyphicon glyphicon-info-sign"> </span>&nbsp;所以，C/N与S/N在数值上十分接近。</h3>
+    </div>
+    <hr />
+
+    <div class="blk blk-back">
+    <h2><span class="glyphicon glyphicon-circle-arrow-down"> </span><br /><br />回到E<sub>b</sub>/N<sub>0</sub></h2>
+    </div>
+    <hr />
+
+    <div class="blk blk-ebn0-basic">
+    <h2>E<sub>b</sub>/N<sub>0</sub></h2>
+    <ul>
+      <li><span class="glyphicon glyphicon-ok-sign"> </span>&nbsp;数字通信系统的信噪比指标。</li>
+      <li><span class="glyphicon glyphicon-ok-sign"> </span>&nbsp;接收端测量得到。</li>
+      <li><span class="glyphicon glyphicon-ok-sign"> </span>&nbsp;表示信号强度。</li>
+    </ul>
+    </div>
+    <hr />
+
+    <div class="blk blk-ebn0-image">
+    <span class="glyphicon glyphicon-search"> </span>&nbsp;木有搜到高清无码图，凑合看吧。<br /><br />
+    <img src="static/img/ebn0.png" alt="" />    
+    </div>
+    <hr />
+
+    <div class="blk blk-image-des">
+    <p><span class="glyphicon glyphicon-circle-arrow-up"> </span><br /><br />不同的调制方式，曲线（BER vs E<sub>b</sub>/N<sub>0</sub>）不同。</p>
+    </div>
+    <hr />
+
+    <div class="blk blk-ebn0">
+    <h2>E<sub>b</sub>/N<sub>0</sub></h2> 
+    <h2><span class="glyphicon glyphicon-pause"> </span></h2>
+    <h3>比特能量 </h3>
+    <h3>--------------------</h3>
+    <h3>噪声功率谱密度</h3><br />
+    E<sub>b</sub>: 单位是J，接收端的平均比特能量。<br />
+    N<sub>0</sub>: 单位是W/Hz（J），接收端的平均功率谱密度。
+    </div>
+    <hr />
+
+    <div class="blk blk-ebn0-cn">
+    <h2>E<sub>b</sub>/N<sub>0</sub> vs C/N</h2>
+    <p><span class="glyphicon glyphicon-exclamation-sign"> </span>&nbsp;&nbsp;C/N = E<sub>b</sub>/N<sub>0</sub> * (f<sub>b</sub>/B<sub>w</sub>)</p><br />
+    f<sub>b</sub>: 信道数据速率。<br />
+    B<sub>w</sub>: 信道带宽。
+    </div>
+    <hr />
+
+    <div class="blk blk-finish">
+    是不是对E<sub>b</sub>/N<sub>0</sub>的概念清晰了？<br />
+    那就到这儿吧，再深入我也不懂。<br /><br />
+    <span class="glyphicon glyphicon-th"> </span>&nbsp;我准备改行去搬砖了。<br />
+    <img src="static/img/kd.jpg" alt="" />
+    </div>
+    <hr />
+
+    <div class="blk blk-more">
+    <span class="glyphicon glyphicon-save"> </span>&nbsp;想要深入了解E<sub>b</sub>/N<sub>0</sub>的话，请移步：<br /><br />
+    <a href="http://en.wikipedia.org/wiki/Eb/N0">wikipedia: E<sub>b</sub>/N<sub>0</sub></a><br />
+    <a href="http://www.sss-mag.com/ebn0.html">E<sub>b</sub>/N<sub>0</sub> Explained</a>
+    </div>
+    <hr />
+
+    <div class="blk blk-fork">
+    <span class="glyphicon glyphicon-thumbs-up"> </span>&nbsp;或许你想完善这份极不终极的指南：<img src="static/img/github.jpg" alt="" height="50" width="50" /><a href="https://github.com/lreij/lreij.github.com.git" class="btn btn-danger btn-lg active" role="button">fork me</a>
+    </div>
+    <hr />
+
+    <div class="blk blk-footer">
+    &copy; 2014 lreij
+    </div>
+  </body>
+</html>
